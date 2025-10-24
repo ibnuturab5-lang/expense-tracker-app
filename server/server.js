@@ -13,7 +13,7 @@ const port = process.env.PORT;
 const app = express();
 app.use(
   cors({
-    origin: "https://scaling-space-succotash-r7r6grwq9x4fxvr4-5173.app.github.dev",
+    origin: ["https://expense-tracker-usb.netlify.app","https://scaling-space-succotash-r7r6grwq9x4fxvr4-5173.app.github.dev"],
     allowedHeaders: [
       "Content-Type",
       "Authorization",

@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_BASE_URL="https://scaling-space-succotash-r7r6grwq9x4fxvr4-8080.app.github.dev"
+const API_BASE_URL="https://expense-tracker-app-abxv.onrender.com" || "https://scaling-space-succotash-r7r6grwq9x4fxvr4-8080.app.github.dev"
 const axiosInstance = axios.create({
   baseURL: API_BASE_URL,
   withCredentials: true,
